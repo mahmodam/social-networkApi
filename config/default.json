@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://mahmod:mahyas6252@devconnecrotcluster.cmwonhh.mongodb.net/socialnetwork?retryWrites=true&w=majority",
-  "jwtSecret": "supersecrettoken"
+  "jwtSecret": "supersecrettoken",
+  "githubClientId": "f86fa77ae0d7fd654473",
+  "githubSecret": "ba8bb64219c4f3221eb99013fa7486b54f8aa213"
 }
