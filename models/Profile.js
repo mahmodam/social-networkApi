@@ -108,6 +108,9 @@ const ProfileSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  image: {
+    type: String,
+  },
 });
 
 module.exports = Profile = mongoose.model("profile", ProfileSchema);
