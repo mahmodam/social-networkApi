@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const express = require("express");
 const connectDB = require("./config/db");
+var cors = require("cors");
 const users = require("./routes/api/users");
 const auth = require("./routes/api/auth");
 const profile = require("./routes/api/profile");
@@ -15,6 +16,8 @@ const PORT = process.env.PORT || 5000;
 
 // Connect Database
 connectDB();
+
+app.use(cors());
 
 // Init Middleware
 app.use(express.json());
